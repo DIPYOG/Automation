@@ -20,7 +20,7 @@ public class AdvanceReporting {
 		//call init method and specify the location where you want to save this report
 		//second parameter is set to true it means it will overwrite report with new one
 		
-		extent.init("C:\\Users\\Dipali\\Desktop\\Dipali HTML\\fileupload.html", true);
+		extent.init("C:\\Users\\fileupload.html", true);
 		
 		//Start Test
 		extent.startTest("Verify Page Title");
@@ -48,7 +48,7 @@ public class AdvanceReporting {
 		//In case you want to attach screenshot then use below method
 		//I am taking random image but you have to take screenshot at run time and specify the path
 		
-		extent.attachScreenshot("‪C:\\Dipa\\Fall 2014 Pics\\IMG_0878.JPG");
+		extent.attachScreenshot("‪C://8.JPG");
 		
 		//close the appliaction
 		driver.quit();
